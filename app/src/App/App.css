@@ -1,0 +1,6 @@
+
+nav {position:fixed; display:flex; left:0; right:0; flex-direction:row-reverse; justify-content:space-between; z-index:100;}
+
+.selectPlace {min-width:20rem;}
+.selectPlace > * {margin:5px;}
+

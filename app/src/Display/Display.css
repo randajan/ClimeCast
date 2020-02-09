@@ -1,0 +1,29 @@
+
+.display {
+    display:flex; position:absolute;  align-items:center; justify-content:center; flex-direction:column; padding:2rem; 
+    top: 50%; left:50%; transform:translate(-50%, -50%); 
+    background-color:rgba(255, 255, 255, .6);
+    border-radius:1rem;
+}
+
+.icon {
+    width:30vh;
+    margin:1%;
+}
+
+.percent:after {content:"%"; font-size:.8em; margin-left:.1em;}
+
+.maindegree:after, .degree:after {content:"°C"; font-size:.8em; margin-left:.1em;}
+.dobson:after {content:"DU"; font-size:.8em; margin-left:.1em;}
+.speed:after {content:"km/h"; font-size:.8em; margin-left:.1em;}
+.distance:after {content:"km"; font-size:.8em; margin-left:.1em;}
+.milibar:after {content:"mbar"; font-size:.8em; margin-left:.1em;}
+
+
+.summary {font-size: 2rem;}
+.maindegree {font-size:5rem;}
+
+.details {
+    margin-top:1em;
+}
+
